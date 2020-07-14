@@ -15,6 +15,5 @@ def date(request):
     return HttpResponse("This page was served at " + str(datetime.now()))
 
 
-# Please add: An about page that shows some text about yourself
 def about(request):
-    return HttpResponse("I'm Reindert and I make courses for Pluralsight.")
+    return HttpResponse("I'm Gaurav")
